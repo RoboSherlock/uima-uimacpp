@@ -198,11 +198,12 @@ namespace uima {
       /** @} */
 #endif // UIMA_DEBUG_ANNOTATOR_TIMING
 
+      AnnotatorManager        iv_annotatorMgr;
     protected:
       /* --- functions --- */
     private:
 
-      AnnotatorManager        iv_annotatorMgr;
+      // AnnotatorManager        iv_annotatorMgr;
 
       /* --- functions --- */
 

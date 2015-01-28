@@ -201,9 +201,10 @@ namespace uima {
 //      const char * getAnnotatorName( size_t uiAnnotatorIndex ) const;
       /*@}*/
 #endif //UIMA_DEBUG_ANNOTATOR_TIMING
-    protected:
+    // protected:
       /* --- functions --- */
-    private:
+    // private:
+    public:
 #ifdef UIMA_COMP_REQ_PUBLIC_TYPES
     public:
 #endif
@@ -214,7 +215,8 @@ namespace uima {
       EngineEntry;
       /* --- types --- */
       typedef std::vector < EngineEntry > TyAnnotatorEntries;
-    private:
+    // private:
+    public:
       friend class uima::internal::PrimitiveEngine;
       // the engine whic howns this annotator manager
       internal::AggregateEngine * iv_pEngine;
