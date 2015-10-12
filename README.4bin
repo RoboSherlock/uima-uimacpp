@@ -1,5 +1,5 @@
 
-Forked from the original apache uimacpp repository
+Forked from the original apache uimacpp repository with changes for running on Ubuntu 14.04 and allowing reconfiguration of AE-s.
 
 Apache UIMA C++ (Unstructured Information Management Architecture) v2.4.0
 -------------------------------------------------------------------------
