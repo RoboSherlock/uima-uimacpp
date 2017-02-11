@@ -728,13 +728,13 @@ namespace uima {
     CharT  value;
     while (true) {  //lint !e716: while(1) ...
       i >> value;
-      if (!i.operator void*())
+      if (!i)//.operator void*())
         break;
       if (!strchr_templ(delimiters, value)) {
         s += value;
         while (true) {  //lint !e716: while(1) ...
           i >> value;
-          if (!i.operator void*())
+          if (!i)//).operator void*())
             break;
           if (!strchr_templ(delimiters, value)) {
             s += value;
